@@ -1,0 +1,16 @@
+h1 {
+    color: #196975;
+}
+
+.intro {
+    text-decoration: underline;
+}
+
+#explicacion {
+    color: #196975;
+    font-weight: bold;
+}
+
+html {
+    background-color: linen;
+}

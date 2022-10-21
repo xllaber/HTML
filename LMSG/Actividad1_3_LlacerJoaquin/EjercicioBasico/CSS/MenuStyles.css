@@ -1,0 +1,23 @@
+nav{
+    background-color: black;
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.menu ul{
+    color: white;
+    list-style: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 50px;
+}
+.menu ul a{
+    text-decoration: none;
+    color: white;
+}
+.menu svg{
+    float: left;
+}

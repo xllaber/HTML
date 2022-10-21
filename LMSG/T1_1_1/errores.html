@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--Es recomendable la etiqueta lang="es"-->
+<html lang="es">
+<head>
+	<!--Se escribe utf-8-->
+	<meta charset="utf-8">
+	<title>Corregeix els errors</title>
+</head>
+<body>
+	<!-- Aquí no hace falta la etiqueta <strong>
+		porque ya es un título
+	-->
+	<h1>Corregeix els errors</h1>
+	
+	<h2>Índex</h2>
+	
+	<!--Las listas no están bien anidadas. La superior debería estar ordenada, o bien no poner listas-->
+	<ol>
+		<li><a href="#ancla">Enllaç 1</a></li><!--Falta una # delante de ancla-->
+			<ul>
+				<li><a href="#">Enllaç 2</a></li>
+				<li><a href="#">Enllaç 3</a></li><!--Sería más correcto poner un # en lugar de dejar el campo vacío-->
+			</ul>
+		<li><a href="#">Enllaç 4</a></li><!--El texto que debería ser el enlace está fuera de la etiqueta-->
+	</ol>
+
+	<!--No se debería usar una etiqueta de titulo con un párrafo ni con fines visuales-->
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem at nostrum iure vitae veritatis officiis officia nam aperiam consequatur, dolor in unde beatae labore quibusdam, nihil assumenda eligendi sint!
+		<br><!--Poner dos saltos de línea consecutivos no es buena praxis-->
+	Maiores.</p>
+	<!--No debería poner # dentro del id-->
+	<p id="ancla">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex mollitia quia, corporis dicta, eaque itaque.</p>
+
+</body>
+</html>

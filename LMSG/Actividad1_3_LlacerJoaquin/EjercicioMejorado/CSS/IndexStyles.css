@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 110%;
+  height: 110%;
+}
+
+.image {
+  flex-basis: 40em;
+}
+
+aside {
+  font-size: 25px;
+  padding-left: 50px;
+  padding-top: 50px;
+  text-align: justify;
+}
+
+html {
+  background-color: linen;
+}

@@ -1,0 +1,22 @@
+footer {
+  background-color: #3dc8b5;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+  transition: 0.15s;
+}
+
+footer a:hover {
+  color: #196975;
+  font-weight: bold;
+  transform: scale(1.05);
+}
+
+.disclaimer{
+  font-size: 10px;
+}

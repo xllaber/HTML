@@ -1,0 +1,24 @@
+th, td{
+    border: 1px solid black;
+}
+th{
+    background-color: #4aaacf;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+}
+td:hover{
+    background-color: hotpink;
+}
+.sinBorde{
+    border: 0cm;
+}
+.sinBorde:hover{
+    background-color: white;
+}
+#horario{
+    color: blue;
+}
