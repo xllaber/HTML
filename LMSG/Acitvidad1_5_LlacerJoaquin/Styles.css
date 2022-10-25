@@ -2,40 +2,38 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+div {
+    border: solid 1px black;
+}
+
 #one {
     background-color: #79FFD2;
     padding-left: 15px;
-    border: solid 1px black;
 }
 
 #two {
     background-color: #FFFF00;
     padding-left: 30px;
-    border: solid 1px black;
 }
 
 #three {
     background-color: #008000;
     color: white;
-    border: solid 1px black;
 }
 
 #four {
     background-color: #90EE90;
-    border: solid 1px black;
     padding: 10px;
 }
 
 #five {
     background-color: #F08080;
-    border: solid 1px black;
     text-align: center;
     padding: 10px;
 }
 
 #six {
     background-color: #D3D3D3;
-    border: solid 1px black;
     margin-top: 40px;
     margin-bottom: 10px;
     text-align: center;
@@ -43,7 +41,6 @@ body {
 
 #seven {
     background-color: #DDA0DD;
-    border: solid 1px black;
     text-align: center;
     padding-top: 40px;
     margin-bottom: 10px;
@@ -52,23 +49,19 @@ body {
 
 #bigDiv {
     padding: 10px;
-    border: solid 1px black;
     background-color: black;
 }
 
 #upperDiv {
     background-color: #201f1f;
-    border: solid 1px black;
     padding: 10px;
 }
 
 .darkDiv {
     background-color: #605c5c;
-    border: solid 1px black;
 }
 
 .numberedDiv {
-    border: solid 1px black;
     background-color: lightgray;
     padding: 10px;
     margin: 10px;
