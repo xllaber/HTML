@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+}
+#pagetop{
+    padding-right: 16px;
+    padding-left: 12px;
+    display: flex;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+}
+.topButton{
+    padding: 8px 16px;
+    vertical-align: middle;
+}
+.topButton:hover{
+    background-color: #059862;
+    color: white;
+}
+.logoIcon{
+    margin-right: 10px;
+}
+#navBar{
+    background-color: rgb(41, 41, 41);
+    padding: 4px 15px 11px 15px;
+}
+.navBarButton{
+    color: white;
+    padding: 11px 15px 11px 15px;
+    font-weight: bold;
+}
+.navBarButton a{
+    text-decoration: none;
+    color:white
+}
+.navBarButton:hover{
+    background-color: black;
+}
+.navBarPressed{
+    background-color: #04aa6d;
+    color: white;
+    padding: 11px 15px 11px 15px;
+    font-weight: bold;
+}
+.navBarPressed a{
+    text-decoration: none;
+    color:white
+}
+main{
+    margin-left: 40px;
+}
+h1, h2, h3{
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+h1{
+    font-size: 42px;
+}
+h2{
+    font-size: 32px;
+}
+h3{
+    font-size: 24px;
+    margin: 10px 0px;
+}
+.prevButton{
+    background-color: #04aa6d;
+    color: white;
+    border-color: #04aa6d;
+    font-size: 18px;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding: 10px 19px 10px 19px;
+    border-radius: 5px;
+    text-align: center;
+}
+hr{
+    color: rgb(90, 90, 90);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.clickMe{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+.clickMe:hover{
+    background-color: lightgray;
+    color: black;
+}
+.text{
+    margin: 18px 0px;
+    font-size: 15px;
+}
+.example{
+    background-color: #E7E9EB;
+    border-radius: 5px;
+    padding: 8px 20px;
+    margin-right: 10px;
+}
+.code{
+    border-left: 4px solid #04AA6D;
+    background-color: white;
+    padding: 8px 12px;
+}
+.tagNameColor{
+    color: brown;
+}
+.tagColor{
+    color: mediumblue;
+}
+.attributeColor{
+    color: red;
+}
+.attributeValueColor{
+    color: mediumblue;
+}
+.tryButton{
+    background-color: #04aa6d;
+    color: white;
+    border-color: #04aa6d;
+    font-size: 18px;
+    padding-left: 19px;
+    padding-right: 19px;
+    padding: 10px 19px 10px 19px;
+    border-radius: 5px;
+    text-align: center;
+}
