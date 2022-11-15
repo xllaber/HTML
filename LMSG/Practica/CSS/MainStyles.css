@@ -1,0 +1,25 @@
+body{
+    font-family: 'Lucida Sans Unicode', 'Gill Sans MT', Lucida, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+figure{
+    margin: 0px;
+}
+
+figcaption{
+    font-size: .8em;
+}
+
+ .text{
+    margin-left: 30px;
+ }
+
+ #BrandonMainImage{
+    border: 5px solid cadetblue;
+ }

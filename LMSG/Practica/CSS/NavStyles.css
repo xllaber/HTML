@@ -1,0 +1,35 @@
+header{
+    background-color: #166088;
+    color: white;
+}
+
+h1{
+    margin: 0;
+    padding: 20px;
+}
+
+nav{
+    background-color: #b6d4df;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+}
+
+#mainButton{
+    padding: 5px 25px 0px 25px;
+}
+
+#mainButton:hover{
+    background-color: #166088;
+}
+
+.navButton{
+    padding: 5px 25px 0px 25px;
+    font-size: 1.2em;
+}
+
+.navButton:hover{
+    background-color: #166088;
+}
