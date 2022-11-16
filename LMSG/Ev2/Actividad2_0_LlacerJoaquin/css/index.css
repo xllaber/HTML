@@ -11,10 +11,11 @@ body {
 
 main {
 	border: 2px solid lightblue;
-	background-color: lightblue;
+	background-color: #cccccc;
 	margin: 10px;
 	border-radius: 20px;
 	padding: 30px;
+	background-image: url("../images/sky.jpg");
 }
 
 section {
@@ -29,6 +30,12 @@ section {
 	max-width: 50%;
 	padding: 10px;
 	margin-bottom: 10px;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 2000px){
+	.campoInput{
+		max-width: 50%;
+	}
 }
 
 @media only screen and (max-width: 700px){
@@ -62,6 +69,11 @@ section {
 	background-color: orange;
 	border-radius: 10px;
 	font-size: 1.5em;
+}
+
+#video{
+	height: 240px;
+	width: 320px;
 }
 
 footer {

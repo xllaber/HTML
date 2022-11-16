@@ -23,7 +23,7 @@
             </form>
             <form class="campoInput">
                 <label class="texto">Contraseña:</label><br>
-                <input type="password" class="userInput" name="userPass">
+                <input type="password" class="userInput" name="userPass" required>
             </form>
             <form class="campoInput">
                 <label class="texto">Correo electónico:</label><br>
@@ -32,7 +32,7 @@
             <form class="campoInput">
                 <label class="texto">DNI:</label><br>
                 <label class="subTexto">Formato: 9 números y una letra</label><br>
-                <input type="email" class="userInput" name="userDNI" pattern="[0-9]{9}[A-Za-Z]{1}" maxlength="10">
+                <input type="text" class="userInput" pattern="[0-9]{9}[A-Za-Z]{1}">
             </form>
             <form class="campoInput">
                 <label class="texto">Imagen:</label>
@@ -95,10 +95,21 @@
         </div>
         <section>
             <h2>MULTIMEDIA:</h2>
+            <video controls id="video">
+                <source src="media/Atardecer.mp4" type="video/mp4">
+            </video><br>
+            <audio controls id="audio">
+                <source src="media/piano.mp3" type="audio/mp3">
+            </audio>
         </section>
     </main>
     <footer>
         <div>DIRECCIÓN DE CONTACTO:</div>
+        <address>
+            CIPFP Mislata<br>
+            Carrer de Dolores Ibárruri, 32, 46920<br>
+            961 20 59 25
+        </address>
     </footer>
 </body>
 
