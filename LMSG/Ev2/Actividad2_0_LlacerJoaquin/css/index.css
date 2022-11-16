@@ -1,0 +1,72 @@
+body {
+	font-size: 16px;
+}
+
+#cabecera-principal {
+	background-color: grey;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+main {
+	border: 2px solid lightblue;
+	background-color: lightblue;
+	margin: 10px;
+	border-radius: 20px;
+	padding: 30px;
+}
+
+section {
+	margin: 10px;
+	padding: 20px;
+	background-color: white;
+	border-radius: 20px;
+}
+
+.campoInput{
+	background-color: lightgray;
+	max-width: 50%;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 700px){
+	.campoInput{
+		max-width: 100%;
+	}
+}
+
+.subTexto{
+	font-size: .8em;
+}
+
+.userInput{
+	height: 25px;	
+}
+
+.radioButton{
+	margin-left: 10px;
+}
+
+#themeColor{
+	padding: 4px;
+}
+
+.text-align-center{
+	text-align: center;
+}
+
+#sendButton{
+	padding: 20px;
+	background-color: orange;
+	border-radius: 10px;
+	font-size: 1.5em;
+}
+
+footer {
+	background-color: grey;
+	padding: 10px 20px 10px 20px;
+	color:white;
+}
+
