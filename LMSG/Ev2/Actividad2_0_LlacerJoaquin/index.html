@@ -19,70 +19,70 @@
         <section>
             <h2>DATOS PERSONALES:</h2>
             <form class="campoInput">
-                <label class="texto">Usuario*</label><br>
-                <label class="subTexto">Mínimo 6 y máximo 12</label><br>
+                <label class="texto" for="userName">Usuario*</label><br>
+                <p class="subTexto">Mínimo 6 y máximo 12</p>
                 <input type="text" class="userInput" name="userName" maxlength="12" minlength="6" size="30px" required>
             </form>
             <form class="campoInput">
-                <label class="texto">Contraseña:</label><br>
+                <label class="texto" for="userPass">Contraseña:</label><br>
                 <input type="password" class="userInput" name="userPass" required>
             </form>
             <form class="campoInput">
-                <label class="texto">Correo electónico:</label><br>
+                <label class="texto" for="userEmail">Correo electónico:</label><br>
                 <input type="email" class="userInput" name="userEmail">
             </form>
             <form class="campoInput">
-                <label class="texto">DNI:</label><br>
-                <label class="subTexto">Formato: 9 números y una letra</label><br>
-                <input type="text" class="userInput" pattern="[0-9]{9}[A-Za-Z]{1}">
+                <label class="texto" for="userDNI">DNI:</label><br>
+                <p class="subTexto">Formato: 9 números y una letra</p>
+                <input type="text" class="userInput" name="userDNI" pattern="[0-9]{9}[A-Za-Z]{1}">
             </form>
             <form class="campoInput">
-                <label class="texto">Imagen:</label>
+                <label class="texto" for="userFile">Imagen:</label>
                 <input type="file" class="userInput" name="userFile">
             </form>
         </section>
         <section>
             <h2>DATOS DEL CENTRO:</h2>
             <form class="campoInput">
-                <label class="texto">Fecha de entrada en el centro:</label><br>
-                <label class="subTexto">(Selecciona una fecha entre el 1 de septiembre y el 30 de junio)</label><br>
+                <label class="texto" for="userDate">Fecha de entrada en el centro:</label><br>
+                <label class="subTexto" for="userDate">(Selecciona una fecha entre el 1 de septiembre y el 30 de junio)</label><br>
                 <input type="date" class="userInput" name="userDate" value="2021-09-01" min="2021-09-01" max="2022-06-30">
             </form>
             <form class="campoInput">
-                <label class="texto">Ciclo:</label><br>
-                <input type="radio" name="course" class="radioButton">
-                <label>DAW</label><br>
-                <input type="radio" name="course" class="radioButton">
-                <label>DAM</label><br>
-                <input type="radio" name="course" class="radioButton">
-                <label>ASIR</label>
+                <label class="texto" for="course">Ciclo:</label><br>
+                <input type="radio" name="courseDAW" class="radioButton" value="DAW">
+                <label for="courseDAW">DAW</label><br>
+                <input type="radio" name="courseDAM" class="radioButton">
+                <label for="courseDAM">DAM</label><br>
+                <input type="radio" name="courseASIR" class="radioButton">
+                <label for="courseASIR">ASIR</label>
             </form>
             <form class="campoInput">
-                <label class="texto">Número de asignaturas</label><br>
-                <label class="subTexto">(Mínimo 4 y máximo 8)</label><br>
+                <label class="texto" for="userSubject">Número de asignaturas</label><br>
+                <p class="subTexto">(Mínimo 4 y máximo 8)</p>
                 <input type="number" class="userInput" name="userSubject" min="4" max="8" maxlength="1" value="4">
             </form>
             <form class="campoInput">
                 <label class="texto">Materias prefetidas</label><br>
-                <input type="checkbox" name="userCheck">
-                <label>Redes</label><br>
-                <input type="checkbox" name="userCheck">
-                <label>Base de Datos</label><br>
-                <input type="checkbox" name="userCheck">
-                <label>Programación</label><br>
-                <input type="checkbox" name="userCheck">
-                <label>Lenguaje de Marcas</label><br>
+                <input type="checkbox" name="userCheckRedes">
+                <label for="userCheckRedes">Redes</label><br>
+                <input type="checkbox" name="userCheckBD">
+                <label for="userCheckBD">Base de Datos</label><br>
+                <input type="checkbox" name="userCheckProg">
+                <label for="userCheckProg">Programación</label><br>
+                <input type="checkbox" name="userCheckLM">
+                <label for="userCheckLM">Lenguaje de Marcas</label><br>
             </form>
         </section>
         <section>
             <h2>DATOS DEL CAMPUS:</h2>
             <form class="campoInput">
-                <label class="texto">Color de tema:</label>
+                <label class="texto" for="themeColor">Color de tema:</label>
                 <input type="color" id="themeColor" name="themeColor" value="#00FF00">
             </form>
             <form class="campoInput">
-                <label class="texto">Navegador de acceso:</label><br>
-                <input list="browsers" class="userInput">
+                <label class="texto" for="browserList">Navegador de acceso:</label><br>
+                <input list="browsers" class="userInput" name="browserList">
                 <datalist id="browsers">
                 <option value="Internet Explorer">
                 <option value="Firefox">
