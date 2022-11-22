@@ -1,28 +1,47 @@
 body {
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.backgroundImg{
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 1;
 }
 
 #container {
     margin: 0 auto;
-    border: solid 3px black;
     width: 85%px;
     height: 85%;
-    position: relative;
-    top: 200px;
+    border: solid 3px black;
 }
 
 .bookDiv{
     padding: 10px;
     margin: 5px;
-    background-color: black;
-    text-align: center;
-    display: inline;
+    background-color: white;
+    height: 40%;
+    width: 20%;
+    display: inline-block;
+    color: black;
+    /* text-align: center; */
+    position: relative;
+    top: -300px;
+    z-index: 20;
+}
+
+.bookDescription{
+    width: 250px;
+    margin: 0;
+    padding-left: 50px;
 }
 
 .cover{
     width: 250px;
     height: 388px;
+    padding-left: 50px;
 }
 
 #sideMenu {
@@ -30,18 +49,33 @@ body {
     background-color: black;
     color: white;
     padding: 10px;
-    width: 350px;
+    width: 450px;
     text-align: right;
     margin-top: 30px;
+    position: relative;
+    top: -700px;
+    z-index: 20;
+}
+
+.sideMenuLink{
+    text-decoration: none;
 }
 
 .sideMenuText{
     margin-right: 10px;
+    font-size: 1.2em;
 }
 .sideMenuText:hover{
     color: salmon;
 }
 
+#verticalBar{
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
 .icon{
     margin-right: 5px;
+    height: 24px;
+    width: 24px;
 }
