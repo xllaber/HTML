@@ -1,0 +1,47 @@
+body {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+    margin: 0 auto;
+    border: solid 3px black;
+    width: 85%px;
+    height: 85%;
+    position: relative;
+    top: 200px;
+}
+
+.bookDiv{
+    padding: 10px;
+    margin: 5px;
+    background-color: black;
+    text-align: center;
+    display: inline;
+}
+
+.cover{
+    width: 250px;
+    height: 388px;
+}
+
+#sideMenu {
+    float: right;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 350px;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.sideMenuText{
+    margin-right: 10px;
+}
+.sideMenuText:hover{
+    color: salmon;
+}
+
+.icon{
+    margin-right: 5px;
+}
