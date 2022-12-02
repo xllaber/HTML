@@ -12,39 +12,36 @@ body {
 }
 
 #container {
-    margin: 0 auto;
-    width: 85%px;
-    height: 85%;
-    border: solid 3px black;
-}
-
-.bookDiv{
-    padding: 10px;
-    margin: 5px;
-    background-color: white;
-    height: 40%;
-    width: 20%;
-    display: inline-block;
-    color: black;
-    /* text-align: center; */
     position: relative;
-    top: -300px;
+    top: -150px;
+    width: max-content;
+    margin: auto;
     z-index: 20;
 }
 
-.bookDescription{
+.bookDiv{
+    padding: 20px;
+    margin: 5px;
+    background-color: white;
+    text-align: justify;
     width: 250px;
-    margin: 0;
-    padding-left: 10px;
-    max-height: 400px;
-    overflow: auto;
+    float: left;
+    clear: right;
+    color: black;
 }
 
 .cover{
     width: 250px;
     height: 388px;
-    padding-left: 10px;
-    padding-top: 10px;
+    transition: 0.15s;
+}
+
+.cover:hover{
+    transform: scale(1.05);
+}
+
+.bold{
+    font-weight: bold;
 }
 
 #sideMenu {
@@ -54,10 +51,9 @@ body {
     padding: 10px;
     width: 450px;
     text-align: right;
-    margin-top: 30px;
     position: relative;
     top: -450px;
-    z-index: 20;
+    z-index: 50;
 }
 
 .sideMenuLink{
@@ -82,3 +78,16 @@ body {
     height: 24px;
     width: 24px;
 }
+
+footer{
+    clear: both;
+    background-color: gray;
+    text-align: center;
+    padding: 15px;
+}
+
+.footerText{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
