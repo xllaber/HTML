@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="../CSS/indexStyles.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/contactoStyles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libreria</title>
+</head>
+<body>
+    <header>
+        <img src="../img/pexels-engin-akyurt-2952871.jpg" alt="background" class="backgroundImg">
+    </header>
+    <main>
+        <nav id="sideMenu">
+            <a href="../index.html" class="sideMenuLink"><span class="sideMenuText">HOME</span></a>
+            <a href="contacto.html" class="sideMenuLink"><span class="sideMenuText">CONTACTO</span></a>
+            <span id="verticalBar">|</span>
+            <a href="https://es-es.facebook.com/" class="sideMenuLink" target="_blank">
+                <img src="../icons/facebook.png" alt="facebook" class="icon">
+            </a>
+            <a href="https://www.instagram.com/" class="sideMenuLink" target="_blank">
+                <img src="../icons/instagram.png" alt="instagram" class="icon">
+            </a>
+            <a href="https://twitter.com/home" class="sideMenuLink" target="_blank">
+                <img src="../icons/twitter.png" alt="twitter" class="icon">
+            </a>
+        </nav>
+        <div id="containerForm">
+            <form action="" id="form">
+                <label for="name">Nombre y Apellidos*</label><br>
+                <input type="text" name="name" required class="inputUser"><br>
+                <label for="email">Correo electrónico*</label><br>
+                <input type="email" name="email" required class="inputUser"><br>
+                <label for="phone">Teléfono de contacto*</label><br>
+                <input type="tel" name="phone" required class="inputUser"><br>
+                <label for="text">Mensaje*</label><br>
+                <input type="text" name="text" required class="inputUser message"><br>
+                <input type="checkbox" name="termsCond">
+                <label for="termsCond">He leído y acepto la <span>Política de privacidad</span></label><br>
+                <input type="button" value="Enviar" id="button">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <span class="footerText">@x_llacer</span>|<span class="footerText">Copyright 2022</span>
+    </footer>
+</body>
+</html>

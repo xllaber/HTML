@@ -13,7 +13,7 @@ body {
 
 #container {
     position: relative;
-    top: -150px;
+    top: -200px;
     width: max-content;
     margin: auto;
     z-index: 20;
@@ -63,7 +63,9 @@ body {
 .sideMenuText{
     margin-right: 10px;
     font-size: 1.2em;
+    color: white;
 }
+
 .sideMenuText:hover{
     color: salmon;
 }
