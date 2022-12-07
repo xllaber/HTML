@@ -7,9 +7,15 @@
     margin: auto;
 }
 
+#bckg{
+    background-color: white;
+    padding: 20px;
+}
+
 #form{
     background-color: lightgray;
     padding: 20px;
+    
 }
 
 .inputUser{
