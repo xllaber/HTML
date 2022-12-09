@@ -14,7 +14,7 @@ body {
 #container {
     position: relative;
     top: -100px;
-    width: max-content;
+    width: 70%;
     margin: auto;
     z-index: 20;
 }
