@@ -5,7 +5,7 @@ body {
 }
 
 .backgroundImg{
-    width: 100%;
+    max-width: 100%;
     height: auto;
     position: relative;
     z-index: 1;
@@ -13,7 +13,7 @@ body {
 
 #container {
     position: relative;
-    top: -200px;
+    top: -100px;
     width: max-content;
     margin: auto;
     z-index: 20;
@@ -26,7 +26,6 @@ body {
     text-align: justify;
     width: 250px;
     float: left;
-    clear: right;
     color: black;
 }
 
@@ -45,14 +44,14 @@ body {
 }
 
 #sideMenu {
-    float: right;
     background-color: black;
     color: white;
     padding: 10px;
     width: 450px;
     text-align: right;
-    position: relative;
-    top: -450px;
+    position: absolute;
+    top: 40px;
+    right: 0px;
     z-index: 50;
 }
 
