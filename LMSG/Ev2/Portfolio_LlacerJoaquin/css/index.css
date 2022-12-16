@@ -1,8 +1,9 @@
 body{
     margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.parallax{
+.parallax1{
     background-image: url(../img/img1.jpg);
     min-height: 500px;
     background-attachment: fixed;
@@ -36,4 +37,37 @@ i{
 i:hover{
     color: blueviolet;
     transform: scale(1.2);
+}
+
+.myLogo{
+    background-color: rgb(46, 45, 45);
+    color: white;
+    width: max-content;
+    margin: auto;
+    letter-spacing: 8px;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+    position: relative;
+    top: -300px;
+    z-index: 20;
+}
+
+#about{
+    text-align: justify;
+    color: gray;
+    padding: 50px 80px;
+}
+
+h3{
+    text-align: center;
+}
+
+.underText{
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.bio{
+    text-align: justify;
 }
