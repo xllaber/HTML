@@ -31,8 +31,8 @@ body{
  }
 
  .container {
-	/* text-align: center;
-	position:relative;
+	text-align: center;
+	/* position:relative;
 	top:-100px; */
 	display: flex;
 	justify-content: space-evenly;
