@@ -34,8 +34,6 @@ body{
 	text-align: center;
 	display: flex;
 	justify-content: flex-start;
-	/* position:relative;
-	top:-100px; */
  }
  #usuario{
 	 padding-right:10px;

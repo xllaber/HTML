@@ -35,8 +35,6 @@ body{
 	display: flex;
 	gap: 50px;
 	flex-wrap: wrap;
-	/* position:relative;
-	top:-100px; */
  }
  #usuario{
 	 padding-right:10px;
