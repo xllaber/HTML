@@ -113,3 +113,48 @@ img{
 .tech{
     text-align: center;
 }
+
+.progressBar{
+    display: flex;
+}
+
+svg{
+    width: 114px;
+    height: 114px;
+    margin: 1em;
+    margin-top: 0px;
+}
+
+.progressBackground{
+    fill: none;
+    stroke-width: 10px;
+    stroke: gray;
+}
+
+.progressGeneral{
+    fill: none;
+    stroke-width: 10px;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+.progress1{
+    stroke: aqua;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 175;
+}
+
+.progress2{
+    stroke: red;
+    stroke-dasharray: 360;
+    stroke-dashoffset: 150;
+}
+
+.java{
+    text-align: center;
+}
+
+.barTitle{
+    margin-bottom: 0px;
+}
